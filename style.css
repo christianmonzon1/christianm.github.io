@@ -9,7 +9,10 @@
 body {
     background-color: #f0f5f9; /* Light blue-gray */
     color: #333; /* Dark gray */
-    font-family: Arial, sans-serif;
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 /* Header styling */
