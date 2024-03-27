@@ -1,33 +1,73 @@
-body {
-    font-family: 'Arial', sans-serif;
+/* Resetting default margin and padding */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Body background and font color */
+body {
+    background-color: #f0f5f9; /* Light blue-gray */
+    color: #333; /* Dark gray */
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
 header {
-    background-color: #333;
-    color: white;
+    background-color: #007bff; /* Blue */
+    color: #fff; /* White */
+    padding: 20px;
     text-align: center;
-    padding: 2em;
 }
 
+header h1 {
+    margin-bottom: 5px;
+}
+
+/* Section styling */
 section {
-    margin: 2em;
+    padding: 40px 20px;
 }
 
-h2 {
-    color: #333;
+/* About section */
+#about {
+    background-color: #e3f2fd; /* Light blue */
+}
+
+/* Projects section */
+#projects {
+    background-color: #bbdefb; /* Light blue */
 }
 
 .project {
-    margin-bottom: 1em;
+    margin-bottom: 30px;
 }
 
-a {
-    color: #007BFF;
+.project h3 {
+    color: #007bff; /* Blue */
 }
 
-a:hover {
+.project a {
+    color: #007bff; /* Blue */
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+/* Contact section */
+#contact {
+    background-color: #90caf9; /* Light blue */
+    text-align: center;
+    padding: 20px;
+}
+
+#contact a {
+    color: #007bff; /* Blue */
+    text-decoration: none;
+}
+
+#contact a:hover {
     text-decoration: underline;
 }
