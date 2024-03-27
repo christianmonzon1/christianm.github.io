@@ -1,24 +1,21 @@
-/* Resetting default margin and padding */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body background and font color */
 body {
-    background-color: #f0f5f9; /* Light blue-gray */
-    color: #333; /* Dark gray */
+    background-color: #f0f5f9; 
+    color: #333; 
     font-family: "Karla", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
 }
 
-/* Header styling */
 header {
-    background-color: #007bff; /* Blue */
-    color: #fff; /* White */
+    background-color: #007bff; 
+    color: #fff; 
     padding: 20px;
     text-align: center;
 }
@@ -27,19 +24,16 @@ header h1 {
     margin-bottom: 5px;
 }
 
-/* Section styling */
 section {
     padding: 40px 20px;
 }
 
-/* About section */
 #about {
-    background-color: #e3f2fd; /* Light blue */
+    background-color: #e3f2fd; 
 }
 
-/* Projects section */
 #projects {
-    background-color: #bbdefb; /* Light blue */
+    background-color: #bbdefb; 
 }
 
 .project {
@@ -47,11 +41,11 @@ section {
 }
 
 .project h3 {
-    color: #007bff; /* Blue */
+    color: #007bff; 
 }
 
 .project a {
-    color: #007bff; /* Blue */
+    color: #007bff; 
     text-decoration: none;
 }
 
@@ -59,15 +53,14 @@ section {
     text-decoration: underline;
 }
 
-/* Contact section */
 #contact {
-    background-color: #90caf9; /* Light blue */
+    background-color: #90caf9; 
     text-align: center;
     padding: 20px;
 }
 
 #contact a {
-    color: #007bff; /* Blue */
+    color: #007bff; 
     text-decoration: none;
 }
 
